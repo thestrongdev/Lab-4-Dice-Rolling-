@@ -6,81 +6,118 @@ namespace Lab_4_Dice_Rolling
     {
         static void Main(string[] args)
         {
-           
 
-            Console.WriteLine("Welcome to Grand Circus Casino\nEnter the number of sides for a pair of dice:");
+            Console.WriteLine("Welcome to Grand Circus Casino!!!");
 
-            string numSides = Console.ReadLine();
+            if (AskUser() == true)
+            {
+                PlayGame();
+            }
 
+        }
+
+        static int ValidateSides()
+        {
             int sides;
-            bool realInteger = int.TryParse(numSides, out sides);
 
-            bool keepPlaying = true;
-
-            int rollCount = 1;
             do
             {
-               
+                Console.WriteLine("Please enter the number of sides of your dice");
+                string numSides = Console.ReadLine();
+                bool realInteger = int.TryParse(numSides, out sides);
 
-                Console.WriteLine($"Roll {rollCount}: ");
-
-                Console.WriteLine(RandomNUmber(2*sides));
-
-                
-
-                rollCount++;
-
-            } while (keepPlaying = ContinueGame());
-
-
-
+                if (realInteger)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input...Please enter a whole number");
+                    continue;
+                }
+            } while (true);
+            return sides;
         }
 
-        static int RandomNUmber(int x)
-
+        static bool AskUser()
         {
-
-            Random random = new Random();
-
-            int randomNUmber = random.Next(2, x);
-
-            return randomNUmber;
-        }
-        
-
-        static bool ContinueGame()
-
-        {
-
-            bool continueGame = true;
+            bool startGame = true;
             do
             {
-
-                Console.WriteLine(" Do you want to continue? (Y/N)");
+                Console.WriteLine("Would you like to roll the dice (y/n)");
 
                 string userInput = Console.ReadLine();
 
                 userInput = userInput.ToLower();
                 if (userInput.Equals("y"))
                 {
-                    continueGame = true;
+                    startGame = true;
                     break;
                 }
-
                 else if (userInput.Equals("n"))
                 {
-
-                    continueGame = false;
+                    startGame = false;
                     break;
                 }
-
                 else
                 {
                     Console.WriteLine("Invalid Input try again.");
                     continue;
                 }
+            } while (true);
+            return startGame;
 
-              
+        }
+
+        static void PlayGame()
+        {
+            int sides = ValidateSides();
+            bool keepPlaying = true;
+            int rollCount = 1;
+
+            do
+            {
+                Console.WriteLine($"Roll {rollCount}: ");
+                Console.WriteLine(RandomNumber(sides));
+                Console.WriteLine(RandomNumber(sides));
+
+                rollCount++;
+
+            } while (keepPlaying = ContinueGame());
+        }
+
+        static int RandomNumber(int x)
+        {
+            Random random = new Random();
+            int randomNumber = random.Next(1, x);
+            return randomNumber;
+        }
+
+
+        static bool ContinueGame()
+        {
+            bool continueGame = true;
+            do
+            {
+                Console.WriteLine(" Do you want to continue? (Y/N)");
+                string userInput = Console.ReadLine();
+                userInput = userInput.ToLower();
+
+                if (userInput.Equals("y"))
+                {
+                    continueGame = true;
+                    break;
+                }
+                else if (userInput.Equals("n"))
+                {
+                    continueGame = false;
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid Input try again.");
+                    continue;
+                }
             } while (true);
             return continueGame;
 

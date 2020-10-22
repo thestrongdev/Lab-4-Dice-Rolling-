@@ -11,3 +11,16 @@ C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netc
 C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.dll
 C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.pdb
 C:\Users\verke\source\repos\Lab 4 Dice Rolling\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.genruntimeconfig.cache
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.exe
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.deps.json
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.runtimeconfig.json
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.runtimeconfig.dev.json
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.dll
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\bin\Debug\netcoreapp3.1\Lab 4 Dice Rolling.pdb
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.csprojAssemblyReference.cache
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.AssemblyInfoInputs.cache
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.AssemblyInfo.cs
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.csproj.CoreCompileInputs.cache
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.dll
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.pdb
+C:\Users\goods\source\repos\DiceRolling\Lab-4-Dice-Rolling-\Lab 4 Dice Rolling\obj\Debug\netcoreapp3.1\Lab 4 Dice Rolling.genruntimeconfig.cache
